@@ -1,5 +1,5 @@
 name: .NET Core
-
+  
 on:
   push:
     branches: [ main ]
@@ -8,6 +8,7 @@ on:
 
 jobs:
   build:
+    
 
     runs-on: windows-latest
 
@@ -18,8 +19,12 @@ jobs:
       with:
         dotnet-version: 5.0.100
     - name: Install dependencies
+      working-directory: .\OrgAE.Tools
+      
       run: dotnet restore
     - name: Build
+      working-directory: .\OrgAE.Tools
       run: dotnet build --configuration Release --no-restore
     - name: Test
+      working-directory: .\OrgAE.Tools
       run: dotnet test --no-restore --verbosity normal
