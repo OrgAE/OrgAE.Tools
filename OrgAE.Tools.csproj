@@ -9,7 +9,11 @@
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
     <FileVersion>3.0.0.0</FileVersion>
     <Authors>Abdelhalim EL HADI</Authors>
-    <Version>3.1.0</Version>
+    <Version>3.3.0</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\aelhadi\source\repos\OrgAE\OrgAE.Tools\OrgAE.Tools.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>

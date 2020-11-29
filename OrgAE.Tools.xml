@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OrgAE.Tools</name>
+    </assembly>
+    <members>
+        <member name="T:OrgAE.Tools.String">
+            <summary>
+            A set of String methods to facilitate development and don't repeat your self.
+            </summary>
+        </member>
+        <member name="M:OrgAE.Tools.String.ToKebabCase(System.String)">
+            <summary>
+            Converts a string to kebab case.
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OrgAE.Tools.String.Stringify``1(System.Collections.Generic.IEnumerable{``0},System.String)">
+            <summary>
+            Combines the elements of an enumerable object into a string.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="elements"></param>
+            <param name="delimiter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OrgAE.Tools.String.FilterString(System.String,System.String)">
+            <summary>
+            Filter a string's contents to include only alphanumeric and allowed characters.
+            </summary>
+            <param name="s"></param>
+            <param name="filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OrgAE.Tools.String.ToCamelCase(System.String)">
+            <summary>
+            Converts a string to camel case.
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OrgAE.Tools.String.HexToByteArray(System.String)">
+            <summary>
+            Converts a hexadecimal string to a byte array.
+            </summary>
+            <param name="hex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OrgAE.Tools.String.Mask(System.String,System.Int32,System.Char)">
+            <summary>
+            Replaces all but the last n characters in a string with the specified mask character.
+            </summary>
+            <param name="str"></param>
+            <param name="n"></param>
+            <param name="mask"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OrgAE.Tools.String.SplitLines(System.String)">
+            <summary>
+            Splits a multiline string into an array of lines.
+            </summary>
+            <param name="s"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OrgAE.Tools.String.SplitStringBy(System.String,System.String)">
+            <summary>
+            Splits a string into an array of strings using a multicharacter (string) separator.
+            </summary>
+            <param name="s"></param>
+            <param name="separator"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OrgAE.Tools.String.ToSnakeCase(System.String)">
+            <summary>
+            Converts a string to snake case.
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OrgAE.Tools.String.ToTitleCase(System.String)">
+            <summary>
+            Converts a string to title case.
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OrgAE.Tools.String.CompactWhiteSpace(System.String)">
+            <summary>
+            Returns a string with whitespaces compacted.
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OrgAE.Tools.String.Capitalize(System.String)">
+            <summary>
+            Capitalizes the first letter of a string.
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OrgAE.Tools.String.Decapitalize(System.String)">
+            <summary>
+            Decapitalizes the first letter of a string.
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OrgAE.Tools.String.Reverse(System.String)">
+            <summary>
+            Reverses a string.
+            </summary>
+            <param name="s"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OrgAE.Tools.String.PadNumber(System.Int32,System.Int32)">
+            <summary>
+            Pads a given number to the specified length.
+            </summary>
+            <param name="n"></param>
+            <param name="length"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OrgAE.Tools.String.IsLower(System.String)">
+            <summary>
+            Checks if a string is lower case.
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OrgAE.Tools.String.IsUpper(System.String)">
+            <summary>
+            Checks if a string is upper case.
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OrgAE.Tools.String.Repeat(System.String,System.Int32)">
+            <summary>
+            Creates a new string by repeating the given string n times.
+            </summary>
+            <param name="s"></param>
+            <param name="n"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
