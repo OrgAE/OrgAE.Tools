@@ -9,9 +9,11 @@
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
     <FileVersion>3.0.0.0</FileVersion>
     <Authors>Abdelhalim EL HADI</Authors>
-    <Version>4.2.1</Version>
+    <Version>4.2.2</Version>
     <RepositoryUrl>https://github.com/OrgAE/OrgAE.Tools</RepositoryUrl>
     <Copyright>© Abdelhalim EL HADI 2020</Copyright>
+    <PackageTags>String, Security, Date, Encrypt, Decrypt</PackageTags>
+    <PackageIcon>OrgAE.Tools.png</PackageIcon>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -19,7 +21,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="LICENSE.MD" />
+    <None Remove="LICENSE.MD" />
     <None Include="LICENSE.MD">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="OrgAE.Tools.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
