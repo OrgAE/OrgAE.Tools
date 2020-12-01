@@ -26,7 +26,7 @@ using System.Threading.Tasks;
 namespace OrgAE.Tools
 {
     /// <summary>
-    /// 
+    /// A set of Security methods to facilitate development and don't repeat your self.
     /// </summary>
     public static class Security
     {
