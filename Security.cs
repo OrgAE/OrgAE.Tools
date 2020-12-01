@@ -30,10 +30,7 @@ namespace OrgAE.Tools
     /// </summary>
     public static class Security
     {
-        /// <summary>
-        /// 
-        /// </summary>
-        public const string strPassword = "LetMeIn99$";
+        
         /// <summary>
         /// 
         /// </summary>
