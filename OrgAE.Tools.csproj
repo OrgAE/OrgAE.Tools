@@ -9,10 +9,10 @@
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
     <FileVersion>3.0.0.0</FileVersion>
     <Authors>Abdelhalim EL HADI</Authors>
-    <Version>4.2.2</Version>
+    <Version>4.2.3</Version>
     <RepositoryUrl>https://github.com/OrgAE/OrgAE.Tools</RepositoryUrl>
     <Copyright>© Abdelhalim EL HADI 2020</Copyright>
-    <PackageTags>String, Security, Date, Encrypt, Decrypt</PackageTags>
+    <PackageTags>String, Security, Date, Encrypt, Decrypt, Kebab Case, Camel Case, Snake Case</PackageTags>
     <PackageIcon>OrgAE.Tools.png</PackageIcon>
   </PropertyGroup>
 
