@@ -4,6 +4,64 @@
         <name>OrgAE.Tools</name>
     </assembly>
     <members>
+        <member name="T:OrgAE.Tools.Security">
+            <summary>
+            A set of Security methods to facilitate development and don't repeat your self.
+            </summary>
+        </member>
+        <member name="F:OrgAE.Tools.Security.strPermutation">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OrgAE.Tools.Security.bytePermutation1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OrgAE.Tools.Security.bytePermutation2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OrgAE.Tools.Security.bytePermutation3">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OrgAE.Tools.Security.bytePermutation4">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:OrgAE.Tools.Security.Encrypt(System.Byte[])">
+            <summary>
+            
+            </summary>
+            <param name="strData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OrgAE.Tools.Security.Decrypt(System.Byte[])">
+            <summary>
+            
+            </summary>
+            <param name="strData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OrgAE.Tools.Security.Encrypt(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="strData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OrgAE.Tools.Security.Decrypt(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="strData"></param>
+            <returns></returns>
+        </member>
         <member name="T:OrgAE.Tools.String">
             <summary>
             A set of String methods to facilitate development and don't repeat your self.

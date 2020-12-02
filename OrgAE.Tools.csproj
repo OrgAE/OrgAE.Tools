@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageLicenseFile>LICENSE.MD</PackageLicenseFile>
@@ -9,11 +9,12 @@
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
     <FileVersion>3.0.0.0</FileVersion>
     <Authors>Abdelhalim EL HADI</Authors>
-    <Version>4.2.3</Version>
+    <Version>4.2.4</Version>
     <RepositoryUrl>https://github.com/OrgAE/OrgAE.Tools</RepositoryUrl>
     <Copyright>© Abdelhalim EL HADI 2020</Copyright>
-    <PackageTags>String, Security, Date, Encrypt, Decrypt, Kebab Case, Camel Case, Snake Case</PackageTags>
+    <PackageTags>String, Security, Date, Encrypt, Decrypt, KebabCase, CamelCase, SnakeCase</PackageTags>
     <PackageIcon>OrgAE.Tools.png</PackageIcon>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -33,8 +34,6 @@
     </None>
   </ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="3.1.0" />
-  </ItemGroup>
+
 
 </Project>
