@@ -2,7 +2,7 @@ name: Publish Nuget
 
 on:
   workflow_run:
-    workflows: [".NET Core"]
+    workflows: [".NET 5 Build"]
     branches: [ main ]
     types:
       - completed
